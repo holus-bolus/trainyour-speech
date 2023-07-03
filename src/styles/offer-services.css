@@ -24,6 +24,69 @@
 }
 
 .offer-services__item {
-    width: 400px;
+    width: 500px;
+    height: 300px;
+    background: linear-gradient(55deg, #192625, #a5b0ad);
+    padding: 20px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+}
 
+.offer-services__text-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 5;
+}
+
+.offer-services__item-bottom-text{
+    flex-grow: 5;
+}
+
+.offer-services__paragraph {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.offer-services__subheading {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+
+.offer-services__list-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #ffffff;
+    margin-bottom: 15px;
+    text-align: start;
+}
+
+.offer-services__item-bottom-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #ffffff;
+    margin-bottom: 15px;
+    text-align: start;
+}
+
+.offer-services__list-button{
+    background-color: #ffffff;
+    color: black;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-bottom: 10px;
+    padding-right: 35px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
 }
