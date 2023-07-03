@@ -1,0 +1,28 @@
+.offer-services {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.offer-services__heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.offer-services__text {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.offer-services__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.offer-services__item {
+    width: 400px;
+}
