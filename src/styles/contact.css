@@ -4,10 +4,25 @@
     background-color: rgba(186, 132, 41, 0.66);
 }
 
+
+@media (max-width: 480px) {
+    .contact {
+        width: 100%;
+    }
+}
+
 .contact__heading {
     text-align: center;
     color: #ffffff;
     margin-bottom: 20px;
+}
+
+
+@media (max-width: 740px) {
+    .contact__heading {
+        width: 100%;
+    }
+
 }
 
 .contact__text {
@@ -28,6 +43,12 @@
     gap: 20px;
 }
 
+@media (max-width: 740px) {
+    .contact__form {
+        width: 100%;
+    }
+}
+
 
 .contact__label {
     background-color: #ffffff;
@@ -40,6 +61,12 @@
     padding-right: 25px;
     padding-bottom: 10px;
     padding-left: 25px;
+}
+
+@media (max-width: 740px) {
+    .contact__label {
+        width: 100%;
+    }
 }
 
 .contact__input {

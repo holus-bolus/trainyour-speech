@@ -3,6 +3,11 @@
     padding-bottom: 40px;
 }
 
+@media (max-width: 480px) {
+    .proposition__container{
+        width: 90%;
+    }
+}
 .proposition__heading {
     text-align: center;
     margin-bottom: 30px;

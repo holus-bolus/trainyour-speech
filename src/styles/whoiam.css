@@ -3,9 +3,15 @@
     padding-bottom: 50px;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 800px) {
     .whoiam__container {
         width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .whoiam__container {
+        width: 80%;
     }
 }
 
@@ -19,7 +25,7 @@
     gap: 250px;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 800px) {
     .whoiam__content-wrapper {
         display: flex;
         gap: 150px;
@@ -41,6 +47,13 @@
 
 .whoiam__text-wrapper {
     width: 440px;
+}
+
+@media (max-width: 480px) {
+    .whoiam__text-wrapper {
+        width: 100%;
+        text-align: justify;
+    }
 }
 
 .whoiam__subheading {
