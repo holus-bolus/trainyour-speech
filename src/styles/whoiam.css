@@ -3,6 +3,11 @@
     padding-bottom: 50px;
 }
 
+@media (max-width: 760px) {
+    .whoiam__container {
+        width: 90%;
+    }
+}
 
 .whoiam__heading {
     text-align: center;
@@ -13,6 +18,14 @@
     display: flex;
     gap: 250px;
 }
+
+@media (max-width: 760px) {
+    .whoiam__content-wrapper {
+        display: flex;
+        gap: 150px;
+    }
+}
+
 
 
 .whoiam__text-wrapper {

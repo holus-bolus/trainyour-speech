@@ -7,22 +7,26 @@
 </head>
 <body>
 <header class="header">
-    <nav class="nav">
-        <div class="container header__container">
-            <img src="src/images/logo.png" alt="A business for you logo" class="header__logo">
-            <ul class="header__list">
-                <li class="header__item"><a href="#" class="header__link">Benefits</a></li>
-                <li class="header__item"><a href="#" class="header__link">Offer</a></li>
-                <li class="header__item"><a href="#" class="header__link">About me</a></li>
-            </ul>
-        </div>
-    </nav>
+    <div class="container header__container">
+        <nav class="nav">
+            <div class="container header__container">
+                <img src="src/images/logo.png" alt="A business for you logo" class="header__logo">
+                <ul class="header__list">
+                    <li class="header__item"><a href="#" class="header__link">Benefits</a></li>
+                    <li class="header__item"><a href="#offer" class="header__link">Offer</a></li>
+                    <li class="header__item"><a href="#whoiam" class="header__link">About me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+<div class="container">
     <div class="container header__motto-container">
         <p class="header__motto">
             "THERE IS NO SECOND CHANCE TO MAKE A FIRST IMPRESSION"
         </p>
     </div>
-</header>
+</div>
 <section class="hero">
     <div class="container hero__container">
         <div class="hero__text-wrapper">
@@ -57,7 +61,7 @@
         </p>
     </div>
 </section>
-<section class="whoiam">
+<section class="whoiam" id="whoiam">
     <div class="container whoiam__container">
         <h2 class="second-heading whoiam__heading">Who I am</h2>
         <div class="whoiam__content-wrapper">
@@ -112,7 +116,7 @@
         </div>
     </div>
 </section>
-<section class="offer-services">
+<section class="offer-services" id="offer">
     <div class="container offer-services__container">
         <h2 class="second-heading offer-services__heading">
             Which services we can offer to you

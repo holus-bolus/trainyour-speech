@@ -9,9 +9,22 @@
     align-items: center;
 }
 
+@media (max-width: 760px) {
+    .hero__container {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+}
 
 .hero__text-wrapper {
     width: 500px;
+}
+
+@media (max-width: 760px) {
+    .hero__text-wrapper {
+        width: 90%;
+    }
 }
 
 .hero__heading {
@@ -38,7 +51,7 @@
     margin-bottom: 30px;
 }
 
-.hero__bottom-text{
+.hero__bottom-text {
     font-size: 18px;
     font-weight: 400;
     line-height: 1.4;
