@@ -1,0 +1,70 @@
+.whoiam {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.whoiam__heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.whoiam__content-wrapper {
+    display: flex;
+    gap: 250px;
+}
+
+
+.whoiam__text-wrapper {
+    width: 440px;
+}
+
+.whoiam__subheading {
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #000000;
+    margin-bottom: 30px;
+
+}
+
+
+.whoiam__text {
+    margin-bottom: 30px;
+    line-height: 2;
+}
+
+
+.whoiam_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.whoiam__item {
+    width: 90px;
+}
+
+.whoiam__list-heading {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.whoiam__paragraph {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #6E6E6E;
+    text-align: center;
+}
+
+.whoiam__button-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

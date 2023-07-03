@@ -1,0 +1,15 @@
+.proposition {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.proposition__heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.proposition__text {
+    text-align: center;
+    margin-bottom: 30px;
+}
