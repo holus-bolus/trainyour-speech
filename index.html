@@ -48,9 +48,9 @@
                 Each one of us is different and online training does not help
                 as they are too generic to resonate and be efficient for each of us.
             </p>
-       <div class="hero__button-wrapper">
-           <button class="button hero__btn">Our services</button>
-       </div>
+            <div class="hero__button-wrapper">
+                <button class="button hero__btn">Our services</button>
+            </div>
         </div>
         <div class="hero__image-wrapper">
             <img src="src/images/cdn.lugc.avif" alt="The village photo" class="hero__image">
@@ -145,7 +145,7 @@
                         Duration and format: 2 hours via Microsoft Teams
                     </p>
                     <div class="offer-services__button-wrapper">
-                        <button class="offer-services__list-button">
+                        <button class="offer-services__list-button" data-modal-target="#modal1">
                             More details
                         </button>
                     </div>
@@ -160,18 +160,15 @@
                         Online presentation rehearsal session
                     </h3>
                     <p class="offer-services__list-text">
-                        Individual online rehearsal of your presentation
-                        with our evaluation.
-                        We will observe your presentation and help
-                        you correct it to make it even more efficient.
+                        Individual online rehearsal of your presentation with our evaluation.
+                        We will observe your presentation and help you correct it to make it even more efficient.
                     </p>
                     <p class="offer-services__item-bottom-text">
                         Duration and format: 2 hours via Microsoft Teams
                     </p>
-
                 </div>
                 <div class="offer-services__button-wrapper">
-                    <button class="offer-services__list-button">
+                    <button class="offer-services__list-button" data-modal-target="#modal2">
                         More details
                     </button>
                 </div>
@@ -193,7 +190,7 @@
                         Duration and format: face to face, from 2 hours.
                     </p>
                     <div class="offer-services__button-wrapper">
-                        <button class="offer-services__list-button">
+                        <button class="offer-services__list-button" data-modal-target="modal-3">
                             Request a quote
                         </button>
                     </div>
@@ -217,7 +214,7 @@
                         Duration and format: face to face, from 2 hours.
                     </p>
                     <div class="offer-services__button-wrapper">
-                        <button class="offer-services__list-button">
+                        <button class="offer-services__list-button" data-modal-target="modal-4">
                             Request a quote
                         </button>
                     </div>
@@ -225,6 +222,20 @@
 
             </li>
         </ul>
+        <div id="modal1" class="modal">
+            <span class="modal-close" onclick="hideModal('#modal1')">&times;</span>
+            <!-- Modal 1 content goes here -->
+            <p>This is modal window 1.</p>
+        </div>
+
+        <div id="modal2" class="modal">
+            <span class="modal-close" onclick="hideModal('#modal2')">&times;</span>
+            <!-- Modal 2 content goes here -->
+            <p>This is modal window 2.</p>
+        </div>
+
+        <div class="modal-backdrop"></div>
+
     </div>
 </section>
 <section class="contact">
