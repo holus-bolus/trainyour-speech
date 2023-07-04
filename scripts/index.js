@@ -20,3 +20,9 @@ function hideModal(modalId) {
   modal.style.display = "none";
   backdrop.style.display = "none";
 }
+
+for (let i = 0; i < buttons.length; i++) {
+  buttons[i].addEventListener("click", showModal);
+}
+
+
